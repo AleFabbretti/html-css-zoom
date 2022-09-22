@@ -12,7 +12,6 @@ body{
 header{
     height: 50px;
     background-color: black;
-    display: flex;
 }
 main{
     height: calc(100% - 130px);
@@ -24,6 +23,7 @@ main{
 footer{
     height: 80px;
     background-color: #222222;
+    display: flex;
 }
 i{
     color: white;
@@ -127,12 +127,13 @@ footer span{
 }
 .meeting{
     background-color: grey;
+    vertical-align: middle;
 }
 .meeting small{
     color: red;
     text-align: center;
     padding: 15px 30px;
-    line-height: 80px;
+    line-height: 60px;
     font-size: 14px;
     font-weight: bold;
 
@@ -142,5 +143,7 @@ footer span{
 }
 .arrow{
     vertical-align: text-bottom;
-
+}
+.arrow i{
+    font-size: smaller;
 }
