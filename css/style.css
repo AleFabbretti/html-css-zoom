@@ -16,7 +16,7 @@ header{
 main{
     height: calc(100% - 130px);
     width: 90%;
-    background-color: yellow;
+    background-color: black;
     margin: auto;
     overflow-y: auto;
 }
@@ -49,6 +49,7 @@ header .button{
 /* MAIN */
 .all-user{
     flex-wrap: wrap;
+    margin-top: 10px;
 }
 .user{
     width: calc(100% / 7 - 10px);
@@ -78,4 +79,16 @@ header .button{
 .utente i{
     font-size: small;
 }
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+::-webkit-scrollbar-track {
+    background: black
+}
+::-webkit-scrollbar-thumb {
+    background: lightgray; 
+    border-radius: 10px;
+  }
+  
 /* FOOTER */
