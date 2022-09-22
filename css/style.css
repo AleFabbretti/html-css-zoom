@@ -105,7 +105,7 @@ header .button{
 
 /* FOOTER */
 .setting{
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 20px;
 }
 .option i{
@@ -130,7 +130,7 @@ footer span{
     color: red;
     text-align: center;
     padding: 15px 30px;
-    line-height: 60px;
+    line-height: 80px;
     font-size: 14px;
     font-weight: bold;
 
