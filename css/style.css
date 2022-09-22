@@ -111,7 +111,8 @@ header .button{
 .option i{
     display: block;
     color: white;
-    font-size: medium;
+    font-size: large;
+    padding-top: 10px;
 }
 footer span{
     display: block;
@@ -121,7 +122,8 @@ footer span{
 .central-tool i{
     display: block;
     color: white;
-    font-size: medium;
+    font-size: large;
+    padding: 10px;
 }
 .meeting{
     background-color: grey;
