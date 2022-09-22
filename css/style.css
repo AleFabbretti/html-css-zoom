@@ -11,7 +11,7 @@ body{
 }
 header{
     height: 50px;
-    background-color: red;
+    background-color: black;
 }
 main{
     height: calc(100% - 130px);
@@ -25,9 +25,21 @@ footer{
     background-color: blueviolet;
 }
 /* COMMON */
-
+a{
+    background-color: #4a4a4a;
+    margin-right: 8px;
+    text-decoration: none;
+    color: white;
+}
 /* HEADER */
-
+header a{
+    border-radius: 5px;
+    padding: 3px;
+}
+header .button{
+    text-align: right;
+    padding-top: 7px;
+}
 /* MAIN */
 
 /* FOOTER */
